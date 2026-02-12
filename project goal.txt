@@ -1,0 +1,20 @@
+This project is to utilize the real-time data from Amazon Ads API to build a system. The workflow image describes how it looks like
+
+Since this is my work content in the previous company, I am now want to simply rebuild it to demonstrate what is it to employers
+
+In my resume, I describe the project as following:
+
+2024.07 – 2025.07 Air A Med AI 广告智能体开发工程师
+⚫ 系统开发：设计并开发基于 Amazon Ads API 的广告智能体系统，构建支持自然语言交互的多 Agent 架构，使管
+理层可通过对话式界面查询广告实时动态、获取优化建议与下一步策略指引
+⚫ 数据处理：开发基于 AWS Glue 的 ETL 任务触发机制，构建 Lambda 函数实现竞价算法逻辑，集成 SNS 配置异常
+指标阈值告警，运用 Kinesis Data Firehose 实现竞价数据流实时处理，部署动态竞价策略至生产环境
+⚫ 数据分析：统筹亚马逊订单数据与客户人口统计信息的关联分析，设计 Spark 任务处理自主采集的客户行为日志，
+应用关联规则挖掘算法解析购物篮数据，输出客户分群标签体系支持营销策略制定
+⚫ 工程架构：构建 Serverless 数据流水线架构，配置 Glue 爬虫定时抓取广告平台数据，编写 PySpark 脚本实现数
+据清洗转换，设计 S3 分层存储结构管理原始数据与加工数据，维护 Lambda 函数实现数据质量校验
+
+Please read the folder and fulfill such requests:
+1. Write a PySpark script for data manipulation
+2. Design a new algorithm to for the ad_performance.py as the main data process. Please refer to the current ad_performance and other data
+3. Design a multi-agent system
